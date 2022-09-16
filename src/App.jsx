@@ -4,6 +4,7 @@ import Navber from "./Components/Navber";
 import Project from "./Components/Project";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import Skills from "./Components/Skills";
 
 function App() {
 
@@ -12,8 +13,10 @@ function App() {
       <Navber />
       <Home />
       <About />
+      <Skills />
       <Project />
       <Footer />
+      
     </div>
   );
 }
