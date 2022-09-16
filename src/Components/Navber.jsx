@@ -11,7 +11,7 @@ function Navber() {
     const handleClose = () => setNav(!nav)
 
     return (
-        <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
+        <div className='w-full h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
             <div className=' flex justify-between items-center w-full h-full md:px-8 px-3'>
                 <div className="flex items-center space-x-4">
                     {/* <img
@@ -20,7 +20,7 @@ function Navber() {
                         alt="logo"
                     /> */}
 
-                    <h1 class="text-purple-500 cursor-pointer font-medium text-4xl  mr-96 sm:mr-16 ">
+                    <h1 class="text-purple-500 cursor-pointer font-medium md:text-4xl text-3xl ">
                     <Link to="home" smooth={true}  duration={500}>Sumit | Portfolio</Link>
                         
                     </h1>
@@ -35,7 +35,7 @@ function Navber() {
                 </ul>
 
 
-                <div className='md:hidden mr-4' onClick={handleClick}>
+                <div className='md:hidden md:mr-4 sm:mr-2' onClick={handleClick}>
                     {!nav ? <FiMenu className='w-6 h-6' /> : <MdClear className='w-6 h-6' />}
 
                 </div>
