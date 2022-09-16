@@ -3,7 +3,7 @@ import React from "react";
 
 function ProjectCard({ link, name, photo, detail}) {
     return (
-        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md hover:drop-shadow-xl dark:border-gray-700 dark:bg-gray-800">
             <a href={link} target="_blank">
                 <img
                     class="rounded-t-lg"

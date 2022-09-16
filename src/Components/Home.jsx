@@ -13,7 +13,7 @@ function Home() {
         <h2  className="mt-3 flex flex-col text-center text-4xl font-bold md:text-left sm:text-5xl">Frontent React Developer</h2>
         <p className="mt-5 text-center text-xl text-gray-600 md:text-left">I'm a frondend react developer and this is my official portfolio website to showes all details and work exprins web development.</p>
         <div className="mt-7 flex justify-center md:justify-start">
-          <a className="inline-block rounded-md bg-purple-500 px-5 py-2 font-medium text-white" href="https://drive.google.com/file/d/1-0YEP1QIx4y37K7UeBd-bvtmbwhktBVb/view?usp=sharing" target="_blank">download Resume</a>
+          <a className="inline-block rounded-md bg-purple-500 drop-shadow-lg hover:drop-shadow-2xl px-5 py-2 font-medium text-white" href="https://drive.google.com/file/d/1-0YEP1QIx4y37K7UeBd-bvtmbwhktBVb/view?usp=sharing" target="_blank">download Resume</a>
         </div>
       </div>
     </div>
