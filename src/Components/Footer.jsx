@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <div>
-            <div className="h-24 w-full bg-gray-800 drop-shadow-lg flex flex-col justify-center items-center sm:justify-between p-3 sm:flex-row">
+            <div className="h-24 w-full bg-black drop-shadow-lg flex flex-col justify-center items-center sm:justify-between p-3 sm:flex-row">
                 <div class="sm:hidden">
                     <ContectIcons />
                 </div>

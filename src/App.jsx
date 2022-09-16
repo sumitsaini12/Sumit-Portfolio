@@ -4,18 +4,16 @@ import Navber from "./Components/Navber";
 import Project from "./Components/Project";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
-// import facebook  from "./IconsImg/facebook.png";
 
 function App() {
 
   return (
     <div>
-      {/* <Navber />
+      <Navber />
       <Home />
       <About />
-      <Project /> */}
+      <Project />
       <Footer />
-      {/* <img src={facebook} /> */}
     </div>
   );
 }
