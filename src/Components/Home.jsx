@@ -4,7 +4,7 @@ function Home() {
 
   return (
 
-    <div class="bg-slate-100 sm:h-screen  sm:flex justify-center items-center p-4 flex-row-reverse ">
+    <div name="home" class="bg-slate-100 sm:h-screen  sm:flex justify-center items-center p-4 flex-row-reverse ">
       <div class="m-auto mb-6 flex flex-1 shrink-0 items-center justify-center p-8">
         <img class="sm:mt-6 mt-20" src="https://media.discordapp.net/attachments/937339895591079957/1004612274356486216/20220802_235829_229.png?width=386&height=385" />
       </div>

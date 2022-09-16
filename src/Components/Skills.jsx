@@ -12,7 +12,7 @@ import typescript from "./SkillsImg/typescript.png";
 function Skills() {
 
     return (
-        <div className="py-10 bg-gray-200">
+        <div name="skills" className="py-10 bg-gray-200">
             <h1 className="md:text-6xl text-4xl font-bold text-purple-400 text-center my-20">My Skills</h1>
             <div className="flex flex-wrap max-w-4xl mx-auto gap-8 justify-center items-center">
               <a href="https://www.w3schools.com/html/" target="_black">{<SkillsCart Img={HTML} />}</a>  
